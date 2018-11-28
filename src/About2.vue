@@ -14,7 +14,7 @@ export default{
   created() {
     const array = [];
     const is = Array.isArray(array);
-    if (is) { alert(300); }
+    if (is) { alert(33); }
   },
 };
 console.log(process.env.NODE_ENV);
@@ -25,6 +25,6 @@ console.log(process.env.BASE_URL);
 </style>
 <style lang="scss">
    h1{
-     &.eeee{color:$red}
+     &.eeee{color:dodgerblue}
    }
 </style>
